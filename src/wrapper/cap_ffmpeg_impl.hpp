@@ -195,7 +195,7 @@ extern "C" {
 #endif
 
 
-#define LIBAVFORMAT_INTERRUPT_TIMEOUT_MS 30000
+#define LIBAVFORMAT_INTERRUPT_TIMEOUT_MS 10000
 
 #ifdef WIN32
 // http://stackoverflow.com/questions/5404277/porting-clock-gettime-to-windows
